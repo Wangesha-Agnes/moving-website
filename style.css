@@ -1,0 +1,115 @@
+#icon{
+    width: 25px;
+}
+body{
+    @media screen and(max-width: 600px){width: 100%;}
+}
+
+#footer{
+    display: flex;
+    gap: 5%;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+}
+
+#container{
+    background-image: url(image.webp);
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20%;
+}
+#p1{
+   color: white;
+   background-color: black; 
+   text-align: center;
+}
+#logo{
+    display: flex;
+    width: 50px;
+}
+#USA{
+    color: white;
+    background-color: rgb(240, 152, 44);
+height: 100px;
+}
+
+#container1{
+    background-image: url(img3.jpeg);
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:20%;
+    display: grid;
+    grid-template-columns: 30%70%;
+
+    
+}
+#request{
+    background-color: orange;
+    color: white;
+}
+#form{
+background-color: blue;
+}
+
+#admin{
+    display: flex;
+    gap: 10%;
+}
+
+#photos1{
+    background-image: url(1.avif);
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+
+}
+#photos2{
+    background-image: url(2.webp);
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+#photos3{
+    background-image: url(3.jpg);
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+
+}
+#container2{
+    display: flex;
+    gap: 5%;
+}
+#image{
+    display: flex;
+    gap: 5%;
+}
+#content{
+    display: flex;
+    gap: 5%;
+}
+
+#twoimages{
+    display: flex;
+    gap: 10%;
+}
+#packing{
+    display: flex;
+    gap: 10%;
+}
+button{
+  background-color: orange;
+  color: white;  
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+#h3{
+    color: orange;
+}
